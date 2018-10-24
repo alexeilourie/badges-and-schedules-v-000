@@ -26,5 +26,5 @@ def printer(arr_names)
   arr_rooms.each do |message|
     arr_print << message
   end
-  return arr_print
+  return arr_badges
 end
