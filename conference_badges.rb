@@ -22,9 +22,10 @@ end
 def printer(arr_names)
   arr_badges = batch_badge_creator(arr_names)
   arr_rooms = assign_rooms(arr_names)
-  arr_print = arr_badges
-  arr_rooms.each do |message|
-    arr_print << message
+  arr_badges.each do |message|
+    puts message
   end
-  return arr_badges
+  arr_rooms.each do |message|
+    puts message
+  end
 end
